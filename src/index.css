@@ -1,5 +1,5 @@
 /*Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;700&family=Tilt+Neon&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;700&family=Tilt+Neon&display=swap");
 
 :root {
   --header-height: 3rem;
@@ -18,13 +18,13 @@
   --font-semi-bold: 600;
 }
 h1 {
-  font-family: 'Tilt Neon', cursive;
+  font-family: "Tilt Neon", cursive;
 }
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 h3 {
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
 }
 /* Responsive */
 /* Responsive typography */
@@ -40,81 +40,81 @@ h3 {
   }
 }
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-	line-height: 1;
-
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  /* Reuseable */
-
-  .section {
-    padding: 6rem 0 2rem;
-    &__title &__subtitle {
-      text-align: center;
-    }
-
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
-  /* Layout */
-  .container {
-    max-width: 968px;
-    margin-left: auto;
-    margin-right: auto;
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Reuseable */
+
+.section {
+  padding: 6rem 0 2rem;
+  &__title,
+  &__subtitle {
+    text-align: center;
   }
-  .grid {
-    display: grid;
-    gap: 1.5rem;
-  }
-  /* Button */
-  .button {
-    display: inline-block;
-    background-color: blue;
-    color: #fff;
-    padding: 1.25rem 2rem;
-    border-radius: 1rem;
-    font-weight: 500;
-    font-family: 'Fira Code', monospace;
-  }
-  
-  .button:hover {
-    background-color: darkblue;
-  }
-  
-  .button__icon {
-    margin-left: .5rem;
-  }
-  .button--flex {
-    display: inline-flex;
-    align-items: center;
-  }
-  /* BREAKPOINTS */
+}
+/* Layout */
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+/* Button */
+.button {
+  display: inline-block;
+  background-color: blue;
+  color: #fff;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
+  font-weight: 500;
+  font-family: "Fira Code", monospace;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
+
+.button__icon {
+  margin-left: 0.5rem;
+}
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+/* BREAKPOINTS */
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {
@@ -129,8 +129,6 @@ button {
       height: 22px;
     }
   }
-
-  
 }
 
 /* For medium devices */

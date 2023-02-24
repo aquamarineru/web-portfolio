@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
+import About from './components/about/About'
 import './index.css'
 const router = createBrowserRouter([
   {
@@ -10,8 +11,9 @@ const router = createBrowserRouter([
     element: <div className='main'>
       <Header />
       <Home />
+      <About />
     </div>,
-  }
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
