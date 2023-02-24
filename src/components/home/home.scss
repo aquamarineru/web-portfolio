@@ -1,0 +1,234 @@
+.home{
+    &__container{
+        row-gap: 7rem;
+    }
+    &__content {
+        grid-template-columns: 116px 1fr;
+        padding-top: 5.5rem;
+        column-gap: 2rem;
+        align-items: center;
+    }
+    &__social{
+        display: grid;
+        grid-template-columns: max-content;
+        row-gap: 1rem;
+        &-icon{
+            font-size: 1.5rem;
+            color: black;
+            &:hover{
+                color: #ff0000;
+            }
+        }
+    }
+    &__title{
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    &__text{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-family: 'Fira Code', monospace;
+    }
+    &__hand{
+        width: 30px;
+        height: 30px;
+        animation-name: hand-animation; 
+        animation-duration: 2.5s; 
+        animation-iteration-count: infinite;
+        transform-origin: 70% 70%;
+        display: inline-block;
+    }
+    &__subtitle{
+        font-size: 1.6rem;
+        padding-left: 5.4rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 1px;
+            background-color: black;
+            left: 0;
+            top: 1rem;
+        }
+    }
+    &__description{
+        max-width: 700px;
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        line-height: 1.3;
+        font-family: 'Inter', sans-serif;
+    }
+    &__scroll{
+        margin-left: 9.2rem;
+        margin-top: 3rem;
+        &-name{
+            color: black;
+            font-family: 'Fira Code', monospace;
+            font-weight: 500;
+            margin-left: 4px;
+        }
+        &-arrow{
+            font-size: 1.25rem;
+            margin-left: .5rem;
+        }
+    }
+}
+.wheel{
+    animation: scroll 2s ease infinite;
+}
+@keyframes hand-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(10.0deg) } 
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(10.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(5.0deg) }
+   60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
+@keyframes scroll{
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(3.75rem);
+    }
+}
+
+/* Breakpoints */
+@media screen and (max-width: 992px) {
+    .home{
+        &__content{
+            grid-template-columns: 100px 1fr;
+            column-gap: 1.25rem;
+        }
+        &__hand{
+            width: 23px;
+            height: 23px;
+        }
+        &__subtitle{
+            padding-left: 3.75rem;
+            margin-bottom: 1rem;
+            &::before{
+                width: 42px;
+                top: .8rem;
+            }
+        }
+        &__description{
+            max-width: initial;
+            margin-bottom: 2.5rem;
+        }
+        &__scroll{
+            margin-left: 7.5rem;
+            margin-top: 2.5rem;
+        
+    }
+  }
+}
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .home{
+        &__content{
+            grid-template-columns: 0.5fr 3fr;
+            padding-top: 3.5rem;
+        }
+        &__scroll{
+            display: none;
+        }
+    }
+    
+  }
+  
+  @media screen and (max-width: 576px) {
+    .home{
+        &__container{
+            margin: 0 2rem;
+        }
+        &__content{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+        &__social{
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        &__text {
+            font-size: 1.25rem;
+        }
+        &__hand {
+            width: 20px;
+            height: 20px;
+        }
+        &__title {
+            font-size: 2.5rem;
+            margin: 1rem 0;
+        }
+        &__subtitle {
+            font-size: 1.25rem;
+            padding-left: 3rem;
+            margin-bottom: 1rem;
+            &::before {
+                width: 35px;
+                top: .8rem;
+            }
+        }
+        &__description {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+    }
+    .button {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        &__icon {
+            width: 18px;
+            height: 18px;
+        }
+      }
+    
+    
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .home{
+        &__container{
+            margin: 0 1rem;
+        }
+        &__content{
+            padding-top: 1.5rem;
+        }
+        &__title{
+            font-size: 2rem;
+            margin: .6rem 0;
+        }
+        &__subtitle{
+            font-size: 1rem;
+            padding-left: 2.5rem;
+            margin-bottom: .6rem;
+            &::before{
+                width: 30px;
+                top: .8rem;
+            }
+        }
+        &__text {
+            font-size: 1rem;
+        }
+        &__hand {
+            width: 17px;
+            height: 17px;
+        }
+        &__description{
+            font-size: .8rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+    }
+   
+  }
