@@ -1,0 +1,266 @@
+.expirience {
+    &__container {
+        max-width: 768px;
+    }
+    &__tabs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem 0;
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+        font-size: 1.2rem;
+    }
+    &__icon{
+        margin-right: 0.5rem;
+        font-size: 1.2rem;
+        margin-top: .2rem;
+        font-size: 1.8rem;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    &__section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        //align-items: center;
+        
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        &:nth-child(odd){
+            margin-top: 1.5rem;
+            align-items:flex-end; 
+            width: 950px; 
+       }
+    }
+    &__data {
+        width: 350px;
+        //padding-left: 8rem;
+        margin-left: 5rem;
+       border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+        &:nth-child(odd){
+            padding-right: 3rem;
+        }
+    }
+    &__tag{
+        font-family: "Fira Code", monospace;
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #fff;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+    }
+    &__title{
+        font-family: "Tilt Neon", cursive;
+        font-size: 1rem;
+        line-height: 1.2;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.8);
+        margin: 0.7rem 0;
+    }
+    &__subtitle{
+        font-family: "Inter", sans-serif;
+        font-size: 0.8rem;
+        line-height: 1.2;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.8);
+        margin: 0.7rem 0;
+    }
+    &__calendar{
+        display: flex;
+        align-items: center;
+        font-size: .8rem;
+        color: rgba(0, 0, 0, 0.8);
+        font-family: "Fira Code", monospace;
+        margin: .5rem 0;
+    }
+    &__icon {
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.8);
+        margin-right: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+    &__rounder {
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        // Create a vertical line
+        &::before {
+            content: "";
+            position: absolute;
+            top: -150px;
+            left: calc(50% - 1px);
+            width: 1px;
+            height: 250px;
+            background-color: black;
+            bottom: -20px;
+
+        }
+    }
+    &__description{
+        font-family: "Inter", sans-serif;
+        font-size: 0.8rem;
+        line-height: 1.2;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.8);
+        margin: 0.7rem 0;
+    }
+    &__link{
+        font-family: "Inter", sans-serif;
+        font-size: 0.8rem;
+        line-height: 1.2;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.8);
+        margin: 0.7rem 0;
+        text-decoration: none;
+        &:hover{
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+            padding: 0.25rem 0.5rem;
+        }
+    }
+   
+}
+/* BREAKPOINTS */
+/* For large devices */
+@media screen and (max-width: 992px) {
+   .expirience {
+    &__container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__content{
+        &:nth-child(odd){
+            margin-top: 1.5rem;
+            align-items:flex-end; 
+            width: 900px; 
+       }
+    }
+    &__data {
+        width: 300px;
+        padding-left: 2rem;
+    }
+   }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .expirience {
+        &__container {
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+        &__content{
+            &:nth-child(odd){
+                width: 650px; 
+           }
+        }
+        &__data {
+            width: 250px;
+            padding: 1rem;
+        }
+       }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .expirience {
+        &__container {
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        &__content{
+            &:nth-child(odd){
+                width: 350px; 
+           }
+        }
+        &__data {
+            width: 150px;
+            margin-left: -.3rem;
+            padding: .5rem;
+        }
+        &__title {
+            text-align: center;
+            font-size: 0.8rem;
+        }
+        &__subtitle {
+            font-size: 0.6rem;
+        }
+        &__description {
+            font-size: 0.6rem;
+        }
+        &__link {
+            font-size: 0.6rem;
+        }
+        &__calendar {
+            font-size: 0.6rem;
+        }
+        &__icon{
+            font-size: 0.8rem;
+        }
+        &__tag {
+            font-size: 0.6rem;
+        }
+       }
+       .expirience__data:nth-child(odd) {
+            padding-right: 0;
+       }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .expirience {
+        &__container {
+            margin-left: .5rem;
+            margin-right: .5rem;
+        }
+        &__content{
+            &:nth-child(odd){
+                width: 320px; 
+           }
+        }
+        &__data {
+            width: 150px;
+            margin: .7rem ;
+            padding: .2rem;
+            margin-left: -.5rem;
+            
+        }
+        &__title {
+            font-size: 0.6rem;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        &__subtitle {
+            font-size: 0.5rem;
+            margin: 0;
+        }
+        &__description {
+            font-size: 0.5rem;
+        }
+        &__link {
+            font-size: 0.6rem;
+        }
+        &__calendar {
+            font-size: 0.5rem;
+        }
+        &__icon{
+            font-size: 0.5rem;
+        }
+        &__tag {
+            font-size: 0.5rem;
+        }
+       }
+    
+  }

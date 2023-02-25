@@ -2,15 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;700&family=Tilt+Neon&display=swap");
 
 :root {
-  --header-height: 3rem;
-  --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
-  --tiny-font-size: 0.625rem;
+  --bg--color: 	#212730;
+  --bg--color--light: #2b333f;
 }
 h1 {
   font-family: "Tilt Neon", cursive;
@@ -89,17 +82,44 @@ img {
 }
 /* Button */
 .button {
-  display: inline-block;
-  background-color: blue;
+  //display: inline-block;
+ /*  background-color: #29a385;
   color: #fff;
   padding: 1.25rem 2rem;
-  border-radius: 1rem;
+  border-radius: 56px;
   font-weight: 500;
   font-family: "Fira Code", monospace;
+  border: 2px solid;
+  box-shadow: 5px 5px rgb(0, 0, 0 / 10%); */
+  height: 56px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  border: 2px solid #000;
+  padding-inline: 40px;
+  border-radius: 56px;
+  box-shadow: 5px 5px rgb(0, 0, 0 / 10%);
+  font-weight: 500;
+  font-family: "Fira Code", monospace;
+  color: #000;
 }
-
-.button:hover {
-  background-color: darkblue;
+.button::before{
+  content: " ";
+  position: absolute;
+  inset: 2px;
+  border-radius: inherit;
+  background-color: #29f385;
+  transform: scale(0.3);
+  filter: blur(10px);
+  opacity: 0;
+  transition: all 0.7s ease;
+  z-index: -1;
+}
+.button:hover::before{ 
+  transform: scale(1);
+  filter: blur(0);
+  opacity: 1;
+  transition: all 0.3s ease;
 }
 
 .button__icon {

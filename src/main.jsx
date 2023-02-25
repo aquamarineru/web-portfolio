@@ -6,6 +6,8 @@ import Home from './components/home/Home'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Services from './components/services/Services'
+import Expirience from './components/expirience/Expirience'
+import data from './components/expirience/data.json'
 import './index.css'
 const router = createBrowserRouter([
   {
@@ -16,6 +18,7 @@ const router = createBrowserRouter([
       <About />
       <Skills />
       <Services />
+      <Expirience data={data}/>
     </div>,
   },
 ])

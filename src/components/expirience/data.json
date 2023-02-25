@@ -1,0 +1,78 @@
+[
+    {
+      "id": "bootcamp1",
+      "title": "Typescript",
+      "company": "Udemy",
+      "date": "Feb 2023 -now",
+      "description": "Learned the basics of Typescript",
+      "category": {
+        "tag": "course",
+        "color": "#5624d0"
+      },
+      "link": {
+        "url": "https://www.udemy.com/course/typescript-the-complete-developers-guide/",
+        "text": "Udemy"
+      }
+    },
+    {
+        "id": "courses2",
+        "title": "Web & App full-stack web development",
+        "company": "WBS Coding School",
+        "date": "Feb 2023 -now",
+        "description": "Learned the basics of Typescript",
+        "category": {
+          "tag": "bootcamp",
+          "color": "#007398"
+        },
+        "link": {
+          "url": "https://www.wbscodingschool.com/",
+          "text": "Check it out"
+        }
+      },
+      {
+        "id": "cources3",
+        "title": "web Developmet",
+        "company": "Codacademy",
+        "date": "Feb 2023 -now",
+        "description": "Learned the basics of Typescript",
+        "category": {
+          "tag": "course",
+          "color": "#f2b"
+        },
+        "link": {
+          "url": "www.codacademy.com",
+          "text": "Check it out"
+        }
+      },
+      {
+        "id": "cources4",
+        "title": "Full-Stack Engineer Career Path",
+        "company": "Udemy",
+        "date": "Feb 2023 -now",
+        "description": "Learned the basics of Typescript",
+        "category": {
+          "tag": "course",
+          "color": "#5624d0"
+        },
+        "link": {
+          "url": "https://www.udemy.com/course/typescript-the-complete-developers-guide/",
+          "text": "Udemy"
+        }
+      },
+      {
+        "id": "uni5",
+        "title": "Software Engineering",
+        "company": "TUSUR", 
+        "date": "Feb 2023 -now",
+        "description": "Learned the basics of Typescript",
+        "category": {
+          "tag": "university",
+          "color": "#3c388d"
+        },
+        "link": {
+          "url": "www.tusur.ru",
+          "text": "check it out"
+        }
+      }
+  ]
+  
