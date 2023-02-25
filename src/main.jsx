@@ -5,6 +5,7 @@ import Header from './components/header/Header'
 import Home from './components/home/Home'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
+import Services from './components/services/Services'
 import './index.css'
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       <Home />
       <About />
       <Skills />
+      <Services />
     </div>,
   },
 ])
