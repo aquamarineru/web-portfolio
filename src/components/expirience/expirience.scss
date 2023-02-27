@@ -34,7 +34,7 @@
         &:nth-child(odd){
             margin-top: 1.5rem;
             align-items:flex-end; 
-            width: 950px; 
+            width: 900px; 
        }
     }
     &__data {
@@ -45,9 +45,9 @@
         border-radius: 0.5rem;
         padding: 1.5rem;
         box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
-        &:nth-child(odd){
-            padding-right: 3rem;
-        }
+        /* &:nth-child(odd){
+            //padding-right: 3rem;
+        } */
     }
     &__tag{
         font-family: "Fira Code", monospace;
