@@ -5,6 +5,7 @@ import { AiOutlineArrowRight, AiOutlineClose } from 'react-icons/ai'
 import { CiBookmarkCheck } from 'react-icons/ci'
 import { FaLaptopCode } from 'react-icons/fa'
 import { BiCheckCircle } from 'react-icons/bi'
+import { MdOutlineHardware } from 'react-icons/md'
 
 
 export default function Services() {
@@ -85,6 +86,45 @@ export default function Services() {
                             <li className="services__modal-service">
                                 <BiCheckCircle size={25} className="services__modal-icon"/>
                                 <p className="services__modal-info"> development of wireframes and prototypes, coding, testing, and deployment.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="services__content">
+                <div>
+                    <MdOutlineHardware className="services__icon" />
+                    <h3 className="services__title">PC Builds & <br /> Upgrades </h3>
+                </div>
+                <span className="services__button" onClick={() => handleModal(1)}>View More 
+                    <AiOutlineArrowRight className='services__button-icon'/>
+                </span>
+                <div className={modal === 1 ? "services__modal active-modal" : "services__modal"}>
+                    <div className="services__modal-content">
+                        <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
+                        <h3 className="services__modal-title"> PC Builds & Upgrades </h3>
+                        <p className="services__modal-description">
+                        Let us build you a one of custom PC using only the best components on the market today!
+                        <br /> 
+                        When building a custom system we take into account the clients needs and budget. Once we have this information we can build you a system that fully meets your requirements and falls within your chosen budget.
+                        </p>
+
+                        <ul className="services__modal-services">
+                            <li className="services__modal-service">
+                                <BiCheckCircle className="services__modal-icon"/>
+                                <p className="services__modal-info">User research</p>
+                            </li>
+                            <li className="services__modal-service">
+                                <BiCheckCircle className="services__modal-icon"/>
+                                <p className="services__modal-info">Information architecture </p>
+                            </li>
+                            <li className="services__modal-service">
+                                <BiCheckCircle className="services__modal-icon"/>
+                                <p className="services__modal-info">Wireframing</p>
+                            </li>
+                            <li className="services__modal-service">
+                                <BiCheckCircle className="services__modal-icon"/>
+                                <p className="services__modal-info">Visual design</p>
                             </li>
                         </ul>
                     </div>

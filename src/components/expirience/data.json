@@ -11,15 +11,15 @@
       },
       "link": {
         "url": "https://www.udemy.com/course/typescript-the-complete-developers-guide/",
-        "text": "Udemy"
+        "text": "Check it out"
       }
     },
     {
         "id": "courses2",
-        "title": "Web & App full-stack web development",
+        "title": "Web & App full-stack WebDev",
         "company": "WBS Coding School",
-        "date": "Feb 2023 -now",
-        "description": "Learned the basics of Typescript",
+        "date": "Aug 2022 - Dec 2022",
+        "description": "15 weeks or 600 hours of intensive bootcamp",
         "category": {
           "tag": "bootcamp",
           "color": "#007398"
@@ -31,10 +31,10 @@
       },
       {
         "id": "cources3",
-        "title": "web Developmet",
+        "title": "Full-Stack Engineer",
         "company": "Codacademy",
-        "date": "Feb 2023 -now",
-        "description": "Learned the basics of Typescript",
+        "date": "Aug 2022 - now",
+        "description": "43 modules filled with theory and practical tasks and projects",
         "category": {
           "tag": "course",
           "color": "#f2b"
@@ -46,32 +46,32 @@
       },
       {
         "id": "cources4",
-        "title": "Full-Stack Engineer Career Path",
+        "title": "Web Development",
         "company": "Udemy",
-        "date": "Feb 2023 -now",
-        "description": "Learned the basics of Typescript",
+        "date": "Feb 2022 - ",
+        "description": "Learned the basics of WebDev, JavaScript, React",
         "category": {
           "tag": "course",
           "color": "#5624d0"
         },
         "link": {
           "url": "https://www.udemy.com/course/typescript-the-complete-developers-guide/",
-          "text": "Udemy"
+          "text": "Check it out"
         }
       },
       {
         "id": "uni5",
         "title": "Software Engineering",
         "company": "TUSUR", 
-        "date": "Feb 2023 -now",
-        "description": "Learned the basics of Typescript",
+        "date": "Sep 2021 - now",
+        "description": "Focus areas: fundamental knowledge of design methods and programming techniques, systems analysis, management and marketing; artificial intelligence and expert systems",
         "category": {
           "tag": "university",
           "color": "#3c388d"
         },
         "link": {
           "url": "www.tusur.ru",
-          "text": "check it out"
+          "text": "Check it out"
         }
       }
   ]
