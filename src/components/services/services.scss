@@ -138,7 +138,8 @@
             grid-template-columns: repeat(1, 1fr);
         }
         &__content {
-            padding: 6rem;
+            width: 300px;
+            padding: 1rem 1rem;
         }
         &__modal {
             &-content{
@@ -153,6 +154,11 @@
   
   /* For small devices */
   @media screen and (max-width: 350px) {
+    .services{
+        &__content {
+            width: 250px;
+        }
+    }
     
   }
   

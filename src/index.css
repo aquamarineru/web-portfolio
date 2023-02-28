@@ -1,10 +1,6 @@
 /*Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;700&family=Tilt+Neon&display=swap");
 
-:root {
-  --bg--color: 	#212730;
-  --bg--color--light: #2b333f;
-}
 h1 {
   font-family: "Tilt Neon", cursive;
 }
@@ -16,17 +12,6 @@ h3 {
 }
 /* Responsive */
 /* Responsive typography */
-@media screen and (max-width: 992px) {
-  :root {
-    --big-font-size: 2.75rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -83,7 +68,7 @@ img {
 /* Button */
 .button {
   //display: inline-block;
- /*  background-color: #29a385;
+  /*  background-color: #29a385;
   color: #fff;
   padding: 1.25rem 2rem;
   border-radius: 56px;
@@ -95,7 +80,7 @@ img {
   display: grid;
   place-items: center;
   position: relative;
-  border: 2px solid #000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding-inline: 40px;
   border-radius: 56px;
   box-shadow: 5px 5px rgb(0, 0, 0 / 10%);
@@ -103,7 +88,7 @@ img {
   font-family: "Fira Code", monospace;
   color: #000;
 }
-.button::before{
+.button::before {
   content: " ";
   position: absolute;
   inset: 2px;
@@ -115,7 +100,7 @@ img {
   transition: all 0.7s ease;
   z-index: -1;
 }
-.button:hover::before{ 
+.button:hover::before {
   transform: scale(1);
   filter: blur(0);
   opacity: 1;
@@ -133,8 +118,8 @@ img {
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 6.5rem;
+    margin-right: 3.5rem;
   }
 
   .button {
@@ -148,9 +133,7 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 3rem 0;
-  }
+
 
   .section {
     padding: 2rem 0 4rem;
@@ -162,16 +145,25 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  .container {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  :root {
-    --big-font-size: 2.25rem;
-  }
+
 
   .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .button {
+    padding: 0.5rem 1.25rem;
+    &__icon {
+      width: 18px;
+      height: 18px;
+    }
   }
 }

@@ -3,22 +3,8 @@
         row-gap: 7rem;
     }
     &__content {
-        grid-template-columns: 116px 1fr;
         padding-top: 5.5rem;
-        column-gap: 2rem;
-        align-items: center;
-    }
-    &__social{
-        display: grid;
-        grid-template-columns: max-content;
-        row-gap: 1rem;
-        &-icon{
-            font-size: 1.5rem;
-            color: black;
-            &:hover{
-                color: #ff0000;
-            }
-        }
+        justify-content: center;
     }
     &__title{
         font-size: 3.5rem;
@@ -62,8 +48,9 @@
         font-family: 'Inter', sans-serif;
     }
     &__scroll{
-        margin-left: 9.2rem;
+        margin-left: 9rem;
         margin-top: 3rem;
+        font-size: 400;
         &-name{
             color: black;
             font-family: 'Fira Code', monospace;
@@ -102,28 +89,33 @@
 @media screen and (max-width: 992px) {
     .home{
         &__content{
-            grid-template-columns: 100px 1fr;
-            column-gap: 1.25rem;
+            padding-top: 5rem;
+            justify-content: center;
+
         }
         &__hand{
             width: 23px;
             height: 23px;
         }
+        &__title{
+            font-size: 3rem;
+        }
         &__subtitle{
-            padding-left: 3.75rem;
+            padding-left: 2.5rem;
             margin-bottom: 1rem;
             &::before{
-                width: 42px;
+                width: 35px;
                 top: .8rem;
             }
         }
         &__description{
             max-width: initial;
+            font-size: 1.1rem;
             margin-bottom: 2.5rem;
         }
         &__scroll{
-            margin-left: 7.5rem;
-            margin-top: 2.5rem;
+            margin-left: 1rem;
+            margin-top: 2rem;
         
     }
   }
@@ -133,7 +125,6 @@
   @media screen and (max-width: 768px) {
     .home{
         &__content{
-            grid-template-columns: 0.5fr 3fr;
             padding-top: 3.5rem;
         }
         &__scroll{
@@ -146,16 +137,12 @@
   @media screen and (max-width: 576px) {
     .home{
         &__container{
-            margin: 0 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
         }
         &__content{
             grid-template-columns: 1fr;
             padding-top: 2.5rem;
-        }
-        &__social{
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
         }
         &__text {
             font-size: 1.25rem;

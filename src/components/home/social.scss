@@ -1,0 +1,47 @@
+.social {
+    width: 2rem;
+    position: fixed;
+    bottom: 0px;
+    left: 2rem;
+    right: auto;
+    z-index: 10;
+    //color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    &__items{
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        gap: 1rem;
+        font-size: 1.4rem;
+        &::after{
+            content: "";
+            display: block;
+            width: 2px;
+            height: 90px;
+            margin: 0px auto;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    }
+    &__icon {
+        color: rgba(0, 0, 0, 0.7);
+    }
+    }
+    @media screen and (max-width: 768px) {
+        .social {
+            left: 1rem;
+            &__items{
+                font-size: 1rem;
+            }
+            
+        }
+    }
+    @media screen and (max-width: 576px){
+        .social {
+            display: none;
+        }
+    }
+    
