@@ -6,7 +6,7 @@ import {MdOutlineHomeRepairService} from 'react-icons/md'
 export default function Header() {
     /* Toggle menu */
     const [navOpen, setNavOpen] = useState(false)
-    const [activeNav, setActiveNav] = useState("#contact")
+    const [activeNav, setActiveNav] = useState("")
 
     /* Change background header */
     window.addEventListener("scroll", function () {
@@ -19,7 +19,7 @@ export default function Header() {
     <div>
       <header className="header">
         <nav className="nav container">
-            <a href="#" className="nav__logo">Aquamarine</a>
+            <a href="#home" className="nav__logo">Aquamarine</a>
             <div className={navOpen ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list">
                     <li className="nav__item">

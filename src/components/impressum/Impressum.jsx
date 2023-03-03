@@ -1,9 +1,14 @@
 import React from 'react'
+import Footer from '../footer/Footer'
+import Header from '../header/Header'
+import Social from '../home/Social'
 import './impressum.scss'
 
 export default function Impressum() {
   return (
     <section className="impressum section">
+      <Header />
+      <Social />
       <div className="section__title">Impressum</div>
       <div className="section__subtitle"> </div>
       <div className="impressum__container container grid">
@@ -37,6 +42,7 @@ export default function Impressum() {
           <p className="impressum__text">Despite careful control of the content, we do not assume any liability for the content of external links. <br /> The operators of the linked pages are solely responsible for their content.</p>
         </div>
       </div>
+      <Footer />
     </section>
   )
 }
