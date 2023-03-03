@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
-//import 'dotenv/config'
 import './contact.scss'
 import emailjs from '@emailjs/browser';
-//import .env file
+import Swal from 'sweetalert2'
+
 
 
 
@@ -11,6 +11,22 @@ export default function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY)
+        .then((result) => {
+            console.log(result.text);
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Your message has been sent'
+
+            })
+        }, (error) => {
+            console.log(error.text);
+            Swal.fire({
+                position: 'center',
+                icon: 'error',
+                title: 'Something went wrong'
+            })
+        });
         e.target.reset(); // This is where the magic happens- clears the form after submission!
       };
     
@@ -30,7 +46,8 @@ export default function Contact() {
                         type="text" 
                         name="name" 
                         className="contact__form-input" 
-                        placeholder='Your name' />
+                        placeholder='Your name' 
+                        required/>
                     </div>
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Email</label>
@@ -38,7 +55,8 @@ export default function Contact() {
                         type="email" 
                         name="email" 
                         className="contact__form-input" 
-                        placeholder='Your email' />
+                        placeholder='Your email' 
+                        required/>
                     </div>
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Message</label>
@@ -47,7 +65,8 @@ export default function Contact() {
                         name='project' 
                         cols="30" 
                         rows="10" 
-                        placeholder=''></textarea>
+                        placeholder=''
+                        required></textarea>
                     </div>
                     <button type="submit" value="Send" className="button button--flex contact__btn">Send message 
                         <svg

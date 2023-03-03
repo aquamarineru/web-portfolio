@@ -10,6 +10,8 @@ import Services from './components/services/Services'
 //import data from './components/expirience/data.json'
 import Social from './components/home/Social'
 import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
+import Impressum from './components/impressum/Impressum'
 import './index.css'
 const router = createBrowserRouter([
   {
@@ -23,8 +25,13 @@ const router = createBrowserRouter([
       <Services />
 {/* <Expirience data={data}/> */}
       <Contact />
+      <Footer />
     </div>,
   },
+  {
+    path: '/impressum',
+    element: <Impressum />,
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
