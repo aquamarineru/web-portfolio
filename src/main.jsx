@@ -13,6 +13,7 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Impressum from './components/impressum/Impressum'
 import ScrollUp from './components/scrollup/ScrollUp'
+import Work from './components/work/Work'
 import './index.css'
 const router = createBrowserRouter([
   {
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       <Home />
       <About />
       <Skills />
+      <Work  />
       <Services />
 {/* <Expirience data={data}/> */}
       <Contact />
