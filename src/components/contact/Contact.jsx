@@ -1,10 +1,19 @@
-import React from 'react'
-import { FiGithub, FiInstagram, FiTwitter, FiLinkedin} from 'react-icons/fi'
-import { TbBrandTelegram } from 'react-icons/tb'
+import React, { useRef } from 'react'
+//import 'dotenv/config'
 import './contact.scss'
-import Social from '../home/Social'
+import emailjs from '@emailjs/browser';
+//import .env file
+
+
 
 export default function Contact() {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_PUBLIC_KEY)
+        e.target.reset(); // This is where the magic happens- clears the form after submission!
+      };
+    
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Contact me</h2>
@@ -14,7 +23,7 @@ export default function Contact() {
                 <h3 className="contact__title">
                     Let's talk about <br/>your project
                 </h3>
-                <form action="" className="contact__form">
+                <form ref={form} onSubmit={sendEmail} action="" className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
                         <input 
@@ -40,8 +49,7 @@ export default function Contact() {
                         rows="10" 
                         placeholder=''></textarea>
                     </div>
-                </form>
-                <a className="button button--flex contact__btn">Send message 
+                    <button type="submit" value="Send" className="button button--flex contact__btn">Send message 
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +67,9 @@ export default function Contact() {
                                 fill="#000"
                             ></path>
                         </svg>
-                    </a>
+                    </button>
+                </form>
+                
             </div>
         </div>
     </section>
