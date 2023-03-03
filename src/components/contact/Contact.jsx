@@ -16,7 +16,16 @@ export default function Contact() {
             Swal.fire({
                 position: 'center',
                 icon: 'success',
-                title: 'Your message has been sent'
+                title: 'Your message has been sent',
+                width: 320,
+                padding: '1em',
+                background: '#fff',
+                backdrop: `
+                    rgba(0,0,123,0.4)
+                    url('src/img/cat.gif')
+                    center bottom 
+                    no-repeat
+  `
 
             })
         }, (error) => {
@@ -24,7 +33,8 @@ export default function Contact() {
             Swal.fire({
                 position: 'center',
                 icon: 'error',
-                title: 'Something went wrong'
+                title: 'Something went wrong',
+                
             })
         });
         e.target.reset(); // This is where the magic happens- clears the form after submission!

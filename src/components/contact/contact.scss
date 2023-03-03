@@ -61,7 +61,14 @@
         margin-top: 4rem;
     }
 }
-
+.swal2-title {
+    font-family: "Tilt Neon", cursive;
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.9);
+}
+.swal2-styled.swal2-confir {
+    background-color: red;
+}
 /* BREAKPOINTS */
   
   /* For medium devices */
@@ -76,8 +83,6 @@
         }
         
     }
-    
-    
   }
   
   /* For small devices */
