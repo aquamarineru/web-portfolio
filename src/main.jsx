@@ -12,11 +12,13 @@ import Social from './components/home/Social'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Impressum from './components/impressum/Impressum'
+import ScrollUp from './components/scrollup/ScrollUp'
 import './index.css'
 const router = createBrowserRouter([
   {
     path: '/',  
-    element: <div className='main'>
+    element: <>
+    <main className='main'>
       <Header />
       <Social />
       <Home />
@@ -25,8 +27,10 @@ const router = createBrowserRouter([
       <Services />
 {/* <Expirience data={data}/> */}
       <Contact />
-      <Footer />
-    </div>,
+    </main>
+    <Footer />
+    <ScrollUp />
+    </>
   },
   {
     path: '/impressum',

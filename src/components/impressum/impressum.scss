@@ -1,0 +1,27 @@
+.impressum{
+    &__container{
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    &__data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__subtitle{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+    }
+    &__text{
+        font-size: .8rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+        font-family: "Inter", sans-serif;
+        line-height: 1.2;
+    }
+}
