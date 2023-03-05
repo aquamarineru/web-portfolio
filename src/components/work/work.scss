@@ -1,4 +1,5 @@
 .work {
+    background-color: var(--body-color);
     &__filters{
         display: flex;
         align-items: center;
@@ -8,19 +9,18 @@
         font-size: 1rem;
         font-weight: 500;
         font-family: "Fira Code", monospace;
+        color: var(--text-color);
     }
     &__item {
         cursor: pointer;
         padding: .45rem .75rem;
-       // background-color: #000;
         border-radius: .5rem;
-       // color: #fff;
         transition: .4s;
         text-transform: capitalize;
         &:hover {
             transform: translateY(-.25rem);
-            background-color: #000;
-            color: #fff;
+            background-color: var(--primary-color);
+            color: var(--text-color);
         }
     }
     &__container {
@@ -29,9 +29,9 @@
         justify-content: center;
     }
     &__card {
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: var(--container-color);
+        border: 1px solid rgba(0, 0, 0, 0.5);
         padding: 1.25rem;
-        border: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 1rem;
     }
     &__img{
@@ -45,12 +45,13 @@
         font-weight: 500;
         margin-bottom: 0.5rem;
         text-align: center;
+        color: var(--title-color);
     }
     &__button{
         font-family: "Fira Code", monospace;
         font-size: 1rem;
         font-weight: 400;
-        color: #000;
+        color: var(--text-color);
         display: flex;
         align-items: center;
         column-gap: .25rem;
@@ -63,6 +64,9 @@
                 transform: translateX(.25rem);
             }
         }
+        &:hover {
+            color: var(--primary-color);
+        }
     }
     &__github-icon {
         font-size: 1.2rem;
@@ -71,8 +75,8 @@
 }
 /* Active class */
 .active-work {
-    background-color: blue;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 /* BREAKPOINTS */
