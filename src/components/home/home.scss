@@ -60,7 +60,7 @@
         margin-top: 3rem;
         font-size: 400;
         &-name{
-            color: var(--text-color);
+            color: var(--border-color);
             font-family: 'Fira Code', monospace;
             font-weight: 500;
             margin-left: 4px;
@@ -68,7 +68,7 @@
         &-arrow{
             font-size: 1.25rem;
             margin-left: .5rem;
-        }
+        }  
     }
 }
 .wheel{

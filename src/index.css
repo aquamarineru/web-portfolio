@@ -85,7 +85,7 @@ img {
   box-shadow: 5px 5px rgb(0, 0, 0 / 10%);
   font-weight: 500;
   font-family: "Fira Code", monospace;
-  color: var(--title-color);
+  color: var(--border-color);
 }
 .button:hover {
   background-color: var(--primary-color);

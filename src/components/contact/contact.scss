@@ -1,4 +1,5 @@
 .contact {
+    background-color: var(--body-color);
     &__container {
         grid-template-columns: repeat(2, max-content);
         justify-content: center;
@@ -14,6 +15,7 @@
         text-align: center;
         font-weight: 500;
         margin-bottom: 1.5rem;
+        color: var(--title-color);
     }
     &__form {
         width: 350px;
@@ -28,11 +30,11 @@
             left: 0;
             width: 100%;
             height: 100%;
-            border: 1px solid rgba(0, 0, 0, 0.7);
+            border: 1px solid var(--border-color);
             background: none;
             outline: none;
             border-radius: 0.75rem;
-            color: rgba(0, 0, 0, 0.9);
+            color: var(--text-color);
             padding: 1.5rem;
             //font-size: .7rem;
             z-index: 1;
@@ -45,9 +47,9 @@
             position: absolute;
             top: -.75rem;
             left: 1.25rem;
-            color: rgba(0, 0, 0, 0.9);
+            color: var(--title-color);
             padding: 0.25rem;
-            background: #fff;
+            background: var(--body-color);
             z-index: 10;
             font-family: "Tilt Neon", cursive;
         }
@@ -59,16 +61,11 @@
     }
     &__btn {
         margin-top: 4rem;
+        background-color: var(--body-color);
     }
 }
-.swal2-title {
-    font-family: "Tilt Neon", cursive;
-    font-size: 1em;
-    color: rgba(0, 0, 0, 0.9);
-}
-.swal2-styled.swal2-confir {
-    background-color: red;
-}
+
+
 /* BREAKPOINTS */
   
   /* For medium devices */
