@@ -1,8 +1,10 @@
-
+import Work1 from '../../img/work1.jpeg'
+import Work2 from '../../img/work2.jpeg'
+import Work3 from '../../img/work3.jpeg'
 export const projectsData = [
     {
         id: 1,
-        image: 'blabla',
+        image: Work1,
         title: 'Web design',
         category: 'web',
         url: 'https://www.google.com',
@@ -12,8 +14,8 @@ export const projectsData = [
     
     {
         id: 2,
-        image: 'blabla',
-        title: 'App movil',
+        image: Work2,
+        title: 'App',
         category: 'app',
         url: 'https://www.google.com',
         github: 'https://www.google.com',
@@ -21,9 +23,9 @@ export const projectsData = [
     },
     {
         id: 3,
-        image: 'blabla',
-        title: 'Web design',
-        category: 'web',
+        image: Work3,
+        title: 'App',
+        category: 'app',
         url: 'https://www.google.com',
         github: 'https://www.google.com',  
 
@@ -32,15 +34,15 @@ export const projectsData = [
 
 export const projectsNav = [
     {
-        name: 'All',
+        name: 'all',
     },
     {
-        name: 'Web',
+        name: 'web',
     },
     {
-        name: 'App',
+        name: 'app',
     },
     {
-        name: 'Design',
+        name: 'design',
     }
 ]
