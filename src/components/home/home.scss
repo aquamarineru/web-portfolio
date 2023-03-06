@@ -54,8 +54,17 @@
     }
     &__btn {
         color: var(--text-color);
+        &-icon {
+            font-size: 1.3rem;
+            margin-left: .5rem;
+            transform: rotate(45deg);
+
+        }
     }
     &__scroll{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
         margin-left: 9rem;
         margin-top: 3rem;
         font-size: 400;
@@ -65,9 +74,19 @@
             font-weight: 500;
             margin-left: 4px;
         }
+        &-mouse {
+            display: inline-flex;
+            width: 1.5rem;
+            height: 1.5rem;
+            color: var(--border-color);
+        }
         &-arrow{
             font-size: 1.25rem;
             margin-left: .5rem;
+            transition: .3s;
+            &:hover {
+                transform: translateY(.25rem);
+            }
         }  
     }
 }

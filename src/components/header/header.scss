@@ -59,7 +59,9 @@
 /* Active link */
 .active-link,
 .nav__link:hover {
-    color: aquamarine;
+    background-color: var(--primary-color);
+    padding: .5rem .5rem;
+    border-radius: 0.5rem;
 }
 /* Change background header */
 .scroll-header {
@@ -80,7 +82,7 @@
             width: 100%;
             padding: 2rem 1.5rem 4rem;
             background-color: var(--body-color);
-            box-shadow: 0 1px 4px var(--container-color);
+            box-shadow: 0 1px 4px var(--text-color);
             border-radius: 1.5rem 1.5rem 0 0;
             transition: .3s;
         }

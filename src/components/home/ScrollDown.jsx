@@ -1,11 +1,12 @@
 import React from 'react'
 import {FiArrowDown} from 'react-icons/fi'
+import {BsMouse} from 'react-icons/bs'
 
 export default function ScrollDown() {
   return (
     <div className="home__scroll">
         <a href="#about" className="home__scroll-button button--flex">
-            <svg
+            {/* <svg
                     width="32px"
                     height="32px"
                     className="home__scroll-mouse"
@@ -41,7 +42,8 @@ export default function ScrollDown() {
                         strokeWidth: "20px"
                     }}
                     ></path>
-            </svg>
+            </svg> */}
+            <BsMouse className='home__scroll-mouse'/>
             <span className="home__scroll-name">Scroll Down
                     <FiArrowDown className='home__scroll-arrow'/>
             </span>

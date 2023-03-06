@@ -25,8 +25,8 @@ const router = createBrowserRouter([
       <Home />
       <About />
       <Skills />
-      <Work  />
       <Services />
+      <Work />
 {/* <Expirience data={data}/> */}
       <Contact />
     </main>

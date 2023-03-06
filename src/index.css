@@ -1,7 +1,7 @@
 /*Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@400;700&family=Tilt+Neon&display=swap");
 :root{
-  --primary-color: #50b2c0;
+  --primary-color: rgba(0, 0, 123, 0.4);
   --title-color: #fff;
   --text-color: #ebebeb;
   --body-color: #201e1f;
@@ -88,7 +88,7 @@ img {
   color: var(--border-color);
 }
 .button:hover {
-  background-color: var(--primary-color);
+  background-color: rgba(0, 0, 123, 0.4);
   border: none;
   transform: translateY(-2px);
 }
@@ -112,7 +112,10 @@ img {
 } */
 
 .button__icon {
+  width: 1.5rem;
+  align-items: center;
   margin-left: 0.5rem;
+  color: var(--border-color);
 }
 .button--flex {
   display: inline-flex;
@@ -120,8 +123,14 @@ img {
 }
 /* /* Light theme */
 .light-theme {
+  --primary-color: rgba(0, 0, 123, 0.4);
+  --title-color: #000;
+  --text-color: #201e1f;
+  --body-color: #ebebeb;
+  --container-color: #fff;
+  --border-color: rgba(0, 0, 123, 0.4);
+} 
 
-} */
 /* BREAKPOINTS */
 /* For large devices */
 @media screen and (max-width: 992px) {

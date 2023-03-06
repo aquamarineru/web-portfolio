@@ -61,7 +61,13 @@
     }
     &__btn {
         margin-top: 4rem;
+        font-size: 1rem;
         background-color: var(--body-color);
+        &-icon {
+            font-size: 1.3rem;
+            margin-left: .5rem;
+            transform: rotate(45deg);
+        }
     }
 }
 
