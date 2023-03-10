@@ -14,14 +14,12 @@ export default function About() {
             <img src={AboutImg} alt="about me pic" className="about__img" />
             <div className="about__data">
                 <p className="about__description">Hello! My name is Marina and I enjoy creating things that live on the internet. </p>
+                
                 <p className="about__description">
-                As an experienced web developer, I specialize in creating custom web applications from start to finish. From the initial stages of information gathering and planning to design, development, testing, delivery, and maintenance, I am dedicated to delivering exceptional results that meet the unique needs of each client. With a positive outlook and a commitment to continuous learning, I am always striving to stay at the forefront of the latest web technologies and best practices.
+                As a web developer, I believe that collaboration is key to creating successful projects. I love working closely with clients to understand their needs and goals, and I enjoy collaborating with designers, marketers, and other developers to ensure that the final product is functional, user-friendly, and visually appealing.
                 </p>
                 <p className="about__description">
-                My approach to web development is grounded in collaboration and communication, and I always strive to work closely with my clients to ensure that their vision is realized. I am committed to delivering exceptional results that are not only visually appealing but also optimized for performance, usability, and search engine rankings.
-                </p>
-                <p className="about__description">
-                In my free time, I enjoy staying up to date with the latest web technologies and trends, and am always looking for new ways to expand my knowledge and skills. When I'm not coding, you can find me hiking in the great outdoors or exploring new cities with my camera in hand.
+                If you're looking for a web developer who is passionate about creating beautiful, functional websites, then look no further. I would be thrilled to work with you on your next project, so please don't hesitate to get in touch.
                 </p>
                 <p className="about__description">Here are a few technologies I’ve been working with recently:</p>
                 <Info />
