@@ -5,7 +5,7 @@ export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Web design',
+        title: 'Octopus Eco project',
         category: 'web',
         url: 'https://octopus-eco.netlify.app/',
         github: 'https://github.com/kaybee24/octopus-client',
@@ -15,7 +15,7 @@ export const projectsData = [
     {
         id: 2,
         image: Work2,
-        title: 'App',
+        title: 'Todo List',
         category: 'app',
         url: 'todolist-aq.netlify.app/',
         github: 'https://github.com/aquamarineru/todo-ts',
@@ -24,7 +24,7 @@ export const projectsData = [
     {
         id: 3,
         image: Work3,
-        title: 'App',
+        title: 'Weather App',
         category: 'app',
         url: 'https://weather-aqua.netlify.app/',
         github: 'https://github.com/aquamarineru/weather-app',  
