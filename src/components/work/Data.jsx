@@ -7,8 +7,8 @@ export const projectsData = [
         image: Work1,
         title: 'Web design',
         category: 'web',
-        url: 'https://www.google.com',
-        github: 'https://www.google.com',
+        url: 'https://octopus-eco.netlify.app/',
+        github: 'https://github.com/kaybee24/octopus-client',
 
     },
     
@@ -17,8 +17,8 @@ export const projectsData = [
         image: Work2,
         title: 'App',
         category: 'app',
-        url: 'https://www.google.com',
-        github: 'https://www.google.com',
+        url: 'todolist-aq.netlify.app/',
+        github: 'https://github.com/aquamarineru/todo-ts',
 
     },
     {
@@ -26,8 +26,8 @@ export const projectsData = [
         image: Work3,
         title: 'App',
         category: 'app',
-        url: 'https://www.google.com',
-        github: 'https://www.google.com',  
+        url: 'https://weather-aqua.netlify.app/',
+        github: 'https://github.com/aquamarineru/weather-app',  
 
     }
 ]

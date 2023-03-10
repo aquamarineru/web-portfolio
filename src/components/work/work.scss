@@ -79,7 +79,7 @@
             }
         }
         &:hover {
-            color: var(--primary-color);
+            color: var(--border-color);
         }
     }
     &__github-icon {
@@ -89,7 +89,7 @@
 }
 /* Active class */
 .active-work {
-    background-color: var(--title-color);
+    background-color: var(--border-color);
     color: var(--body-color);
 }
 /* Light theme */

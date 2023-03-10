@@ -34,25 +34,39 @@ export default function Services() {
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title"> UX/UI Design</h3>
                             <p className="services__modal-description">
-                            UX (User Experience) design focuses on understanding the user's behavior, needs, and preferences to create a seamless and enjoyable experience. UI (User Interface) design focuses on the visual and interactive elements of the digital product, such as layout, typography, color, and iconography.
+                            I am able to provide a range of services aimed at creating user-friendly digital experiences for businesses and individuals. These services include:
                             </p>
     
                             <ul className="services__modal-services">
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info">User research</p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Accessibility:</h3>
+                                        <p>Ensuring that the product is accessible to users with disabilities and meets accessibility standards.</p>
+                                    </div>
                                 </li>
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info">Information architecture </p>
+                                    <div className="services__modal-info">
+                                        <h3 className="services__modal-sub">User interface design</h3>
+                                        <p>Designing interfaces that are intuitive, easy to navigate, and visually appealing.</p>
+                                        </div>
                                 </li>
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info">Wireframing</p>
+                                    <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Visual and Interaction design:</h3>
+                                        <p>Designing how users interact with the product, including animations, transitions, and feedback.</p>
+                                    </div>
                                 </li>
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info">Visual design</p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Information architecture:</h3>
+                                        <p>Organizing content and information in a way that is easy to understand and find</p>
+                                    </div>
+                                </li>
+                                <li className="services__modal-service">
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Accessibility:</h3>
+                                        <p>Ensuring that the product is accessible to users with disabilities and meets accessibility standards.</p>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -71,21 +85,39 @@ export default function Services() {
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title">Web & App Development</h3>
                             <p className="services__modal-description">
-                                Web and app development services involve the design, development, and maintenance of websites and mobile applications to help businesses reach their target audiences and achieve their goals.
+                            I am able to provide a range of services aimed at building and maintaining web and mobile applications for businesses and individuals. These services include:
                             </p>
     
                             <ul className="services__modal-services">
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info"> developing the code, integrating features and SEO.</p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Front-end development:</h3>
+                                        <p>Developing the user interface and user experience of the application using technologies such as React or Vue.</p>
+                                    </div>
                                 </li>
                                 <li className="services__modal-service">
-                                    <BiCheckCircle  className="services__modal-icon"/>
-                                    <p className="services__modal-info">maintenance and support, such as updates, bug fixes. </p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Back-end development:</h3>
+                                        <p>Creating the server-side logic, APIs, and database management systems using technologies such as Node.js,  Content Managment System (CMS)</p>
+                                    </div>
                                 </li>
                                 <li className="services__modal-service">
-                                    <BiCheckCircle size={25} className="services__modal-icon"/>
-                                    <p className="services__modal-info"> development of wireframes and prototypes, coding, testing, and deployment.</p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Testing and debugging:</h3>
+                                        <p>Testing and debugging the application to ensure that it functions properly and is free of errors.</p>
+                                    </div>
+                                </li>
+                                <li className="services__modal-service">
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Maintenance and support: </h3>
+                                        <p>Providing ongoing maintenance and support to keep the application up-to-date and running smoothly.</p>
+                                    </div>
+                                </li>
+                                <li className="services__modal-service">
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Integration:</h3>
+                                        <p>Integrating the application with other third-party services such as payment gateways, social media platforms, and analytics tools.</p>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -104,27 +136,33 @@ export default function Services() {
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title"> PC Builds & Upgrades </h3>
                             <p className="services__modal-description">
-                            Let us build you a one of custom PC using only the best components on the market today!
-                            <br /> 
-                            When building a custom system we take into account the clients needs and budget. Once we have this information we can build you a system that fully meets your requirements and falls within your chosen budget.
+                            Let us build you a one of custom PC using only the best components on the market today! We can also upgrade your current PC to make it faster and more powerful. These services include:
                             </p>
     
                             <ul className="services__modal-services">
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info">User research</p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Custom PC builds: </h3>
+                                        <p>Building custom desktop computers to meet the specific needs of the user, including selecting components such as processors, motherboards, graphics cards, and memory.</p>
+                                    </div>
                                 </li>
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info">Information architecture </p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Upgrades:</h3>
+                                        <p>Upgrading the components of an existing desktop computer to improve performance and capabilities, including upgrading the CPU, GPU, RAM, or storage.</p>
+                                    </div>
                                 </li>
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info">Wireframing</p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Maintenance and support: </h3>
+                                        <p>Providing ongoing maintenance and support to keep the computer running smoothly and addressing any issues that arise.</p>
+                                    </div>
                                 </li>
                                 <li className="services__modal-service">
-                                    <BiCheckCircle className="services__modal-icon"/>
-                                    <p className="services__modal-info">Visual design</p>
+                                <div className="services__modal-info">
+                                    <h3 className="services__modal-sub"> Installation and configuration: </h3>
+                                        <p>Installing and configuring software, hardware, and peripherals such as printers, scanners, and gaming accessories.</p>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
