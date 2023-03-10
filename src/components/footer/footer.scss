@@ -52,10 +52,25 @@
         display: block;
         margin-top: 4.5rem;
         text-align: center;
-        font-size: 1.2rem;
+        font-size: .8rem;
         font-family: "Inter", sans-serif;
     }
 
+}
+/* Light theme */
+.light-theme {
+    .footer{
+        &__social{
+            &-icon{
+                background: var(--primary-color);
+                border: none;
+                color: var(--body-color);
+                &:hover {
+                    background: var(--border-color);
+                }
+            }
+        }
+    }
 }
 
 /* BREAKPOINTS */
@@ -82,7 +97,7 @@
             font-size: 1rem;
         }
         &__copy{
-            font-size: 1rem;
+            font-size: .6rem;
             margin: 1.5rem 0;
         }
     }
@@ -117,7 +132,6 @@
 
   }
 }
-  
   /* For small devices */
   @media screen and (max-width: 350px) {
   

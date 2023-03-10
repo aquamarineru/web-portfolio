@@ -24,7 +24,7 @@
         }
     }
     &__container {
-        grid-template-columns: repeat(2, max-content);
+        grid-template-columns: repeat(3, max-content);
         gap: 3rem;
         justify-content: center;
     }
@@ -36,9 +36,18 @@
     }
     &__img{
         width: 250px;
+        position: relative;
         border-radius: 1rem;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         margin-bottom: 1rem;
+        /* filter: brightness(50%);
+        &:hover {
+            filter: brightness(100%);
+        } */
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
     }
     &__title {
         font-size: 1.2rem;
@@ -46,6 +55,11 @@
         margin-bottom: 0.5rem;
         text-align: center;
         color: var(--title-color);
+    }
+    &__btns{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
     }
     &__button{
         font-family: "Fira Code", monospace;
@@ -75,10 +89,23 @@
 }
 /* Active class */
 .active-work {
-    background-color: var(--primary-color);
-    color: var(--text-color);
+    background-color: var(--title-color);
+    color: var(--body-color);
 }
-
+/* Light theme */
+.light-theme{
+    .work{
+        &__item {
+            &:hover {
+                background-color: var(--primary-color);
+                color: var(--body-color);
+            }
+        }
+        &__card {
+            border: none;
+        }
+    }
+}
 /* BREAKPOINTS */
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -102,7 +129,7 @@
   @media screen and (max-width: 768px) {
     .work {
         &__container {
-            grid-template-columns: max-content;
+            grid-template-columns: repeat(2, max-content)
         }
         &__card{
             padding: .75rem;

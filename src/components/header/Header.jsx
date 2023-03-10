@@ -40,7 +40,7 @@ export default function Header() {
     <div>
       <header className="header">
         <nav className="nav container">
-            <a href="#" className="nav__logo">Aquamarine</a>
+            <a href="/" className="nav__logo">Code Crafters</a>
             <div className="nav__items">
                 <div className={navOpen ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list">

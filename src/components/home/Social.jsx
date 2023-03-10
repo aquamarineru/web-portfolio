@@ -13,6 +13,9 @@ export default function Social() {
             <li><a href="https://github.com/aquamarineru" className="social__icon" target='_blank'><FiInstagram /></a></li>
             <li><a href="https://github.com/aquamarineru" className="social__icon" target='_blank'><TbBrandTelegram /></a></li>
         </ul>
+        <div className="social__email">
+            <a className="social__email-item" href="mailto:info@codecrafters.online">info@codecrafters.online</a>
+        </div>
        {/*  <a href="https://github.com/aquamarineru" className="home__social-icon" target='_blank'>
             <FiGithub />
         </a>

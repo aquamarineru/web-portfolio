@@ -125,8 +125,32 @@
         bottom: 0;
     }
   }
+  /* Light theme */
+  .light-theme{
+    .header {
+        color: var(--text-color);
+    }
+    .nav{
+        &__logo,
+        &__toggle {
+            color: var(--text-color);
+        }
+        &__link {
+            color: var(--text-color);
+        }
+        &__icon {
+            color: var(--text-color);
+        }
+        &__close {
+            color: var(--text-color);
+        }
+        
+
+
+    }
+  }
   @media screen and (max-width: 350px) {
-    nav {
+    .nav {
         &__menu {
             padding: 2rem .25rem 4rem;
         }

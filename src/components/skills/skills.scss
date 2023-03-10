@@ -53,6 +53,17 @@
         color: var(--text-color);
     }
 }
+/* Light Theme */
+.light-theme {
+    .skills {
+        &__title {
+            color: var(--text-color);
+        }
+        &__content {
+            border: none;
+        }
+    }
+}
 /* BREAKPOINTS */
 /* For large devices */
 @media screen and (max-width: 992px) {

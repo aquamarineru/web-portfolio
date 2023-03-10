@@ -56,10 +56,10 @@ export default function Data() {
         <h1 className="home__title">Marina Ilyushina
         
         </h1>
-        <h3 className="home__subtitle">I build things for the web.</h3>
-        <p className="home__description">As a passionate web developer I am able to build web applications from scratch - information gathering, planning, design, development, testing, delivery and maintenance. Having a positive outlook and am always willing to learn new traits.</p>
+        <h3 className="home__subtitle">I can turn your ideas into an exciting online reality</h3>
+        <p className="home__description">As an experienced web developer, I specialize in creating custom web applications from start to finish. From the initial stages of information gathering and planning to design, development, testing, delivery, and maintenance, I am dedicated to delivering exceptional results that meet the unique needs of each client. </p>
 
-        <a href="#contact" className="button button--flex home__btn">Contact me 
+        <a href="mailto:info@codecrafters.online" className="button button--flex home__btn">Contact me 
         <HiOutlinePaperAirplane className="button__icon home__btn-icon" />
         {/* <svg
                   class="button__icon"

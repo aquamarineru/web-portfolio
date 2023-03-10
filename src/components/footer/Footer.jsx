@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="footer">
         <div className="footer__container container">
-            <h1 className="footer__title">Aquamarine</h1>
+            <h1 className="footer__title">Code Crafters</h1>
             <div className="footer__content">
                 <ul className="footer__list">
                     <li>
@@ -46,7 +46,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <span className="footer__copy">&#169; Aquamarine. All rights reserved</span>
+            <span className="footer__copy">&#169; Code Crafters. All rights reserved</span>
         </div>
     </footer>
   )

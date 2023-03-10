@@ -2,7 +2,7 @@
     background-color: var(--body-color);
     &__container {
         margin-top: 1rem;
-        grid-template-columns: repeat(2, 300px);
+        grid-template-columns: repeat(3, 250px);
         justify-content: center;
         grid-gap: 2rem;
     }
@@ -125,6 +125,25 @@
 .active-modal{
     opacity: 1;
     visibility: visible;
+}
+/* Light */
+.light-theme {
+    .services{
+        &__content {
+            border: none;
+        }
+        &__title {
+            color: var(--text-color);
+        }
+        &__modal {
+            border: none;
+            color: var(--text-color);
+            background-color: var(--primary-color);
+            &-content{
+                background-color: var(--body-color);
+            }
+        }
+    }
 }
 
 /* BREAKPOINTS */

@@ -15,11 +15,11 @@
         padding: 0px;
         list-style: none;
         gap: 1rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         &::after{
             content: "";
             display: block;
-            width: 2px;
+            width: 1px;
             height: 90px;
             margin: 0px auto;
             background-color: var(--border-color);
@@ -28,23 +28,55 @@
     &__icon {
         color: var(--border-color);
         &:hover{
-            color: var(--primary-color);
+            color: #C3A2BF;
+            ;
             
         }
     }
-    }
-    @media screen and (max-width: 768px) {
-        .social {
-            left: 1rem;
-            &__items{
-                font-size: 1rem;
+    &__email{
+        position: fixed;
+        bottom: 0px;
+        right: 6rem;
+        left: auto;
+        z-index: 10;
+        cursor: pointer;
+        gap: 1rem;
+        &:after{
+            content: "";
+            display: block;
+            width: 1px;
+            height: 90px;
+            margin: 0px auto;
+            background-color: var(--border-color);
+        }
+        &-item {
+            color: var(--border-color);
+            text-decoration: none;
+            writing-mode: vertical-rl;
+            font-family: "Fira Code", monospace;
+            font-size: .8rem;
+            margin-bottom: 1rem;
+            &:hover{
+                color: #C3A2BF;
             }
-            
         }
     }
-    @media screen and (max-width: 576px){
-        .social {
-            display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .social {
+        left: 1rem;
+        &__items{
+            font-size: 1rem;
         }
+        &__email{
+            right: 2.6rem;
+        }
+        
     }
-    
+}
+@media screen and (max-width: 576px){
+    .social {
+        display: none;
+    }
+}
