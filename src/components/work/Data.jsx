@@ -17,7 +17,7 @@ export const projectsData = [
         image: Work2,
         title: 'Todo List',
         category: 'app',
-        url: 'todolist-aq.netlify.app/',
+        url: 'https://todolist-aq.netlify.app/',
         github: 'https://github.com/aquamarineru/todo-ts',
 
     },
