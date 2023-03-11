@@ -53,15 +53,14 @@ export default function Data() {
                     fill="#EBA352"
                   ></path>
                 </svg>, my name is</span>
-        <h1 className="home__title">Marina Ilyushina
-        
+        <h1 className="home__title">Marina  
         </h1>
         <h3 className="home__subtitle">I can turn your ideas into an exciting online reality</h3>
         <p className="home__description">As an experienced web developer, I specialize in creating custom web applications from start to finish. From the initial stages of information gathering and planning to design, development, testing, delivery, and maintenance, I am dedicated to delivering exceptional results that meet the unique needs of each client. </p>
 
         <a href="mailto:info@codecrafters.online" className="button button--flex home__btn">Contact me 
-        <HiOutlinePaperAirplane className="button__icon home__btn-icon" />
-        {/* <svg
+        {/* <HiOutlinePaperAirplane className="button__icon home__btn-icon" /> */}
+        <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -77,7 +76,7 @@ export default function Data() {
                     d="M10.11 14.7052C9.92005 14.7052 9.73005 14.6352 9.58005 14.4852C9.29005 14.1952 9.29005 13.7152 9.58005 13.4252L13.16 9.83518C13.45 9.54518 13.93 9.54518 14.22 9.83518C14.51 10.1252 14.51 10.6052 14.22 10.8952L10.64 14.4852C10.5 14.6352 10.3 14.7052 10.11 14.7052Z"
                     fill="#feefdd"
                   ></path>
-        </svg> */}
+        </svg> 
         </a>
     </div>
   )

@@ -48,7 +48,7 @@ export default function Contact() {
         <div className="contact__container container grid">
             <div className="contact__content">
                 <h3 className="contact__title">
-                    Let's talk about <br/>your project
+                    Let's talk about your project
                 </h3>
                 <form ref={form} onSubmit={sendEmail} action="" className="contact__form">
                     <div className="contact__form-div">
