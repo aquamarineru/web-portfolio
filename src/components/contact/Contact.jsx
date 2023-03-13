@@ -3,6 +3,7 @@ import './contact.scss'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
 import { HiOutlinePaperAirplane } from 'react-icons/hi';
+import cat from '../../img/cat.gif'
 
 
 
@@ -23,7 +24,7 @@ export default function Contact() {
                 background: 'var(--text-color)',
                 backdrop: `
                     rgba(0,0,123,0.4)
-                    url('src/img/cat.gif')
+                    url(${cat})
                     center bottom 
                     no-repeat
   `

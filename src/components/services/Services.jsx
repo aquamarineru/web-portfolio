@@ -4,6 +4,9 @@ import { BsPencilSquare } from 'react-icons/bs'
 import { AiOutlineArrowRight, AiOutlineClose } from 'react-icons/ai'
 import { FaLaptopCode } from 'react-icons/fa'
 import { MdOutlineHardware } from 'react-icons/md'
+import UXUI from '../../img/uxui.png'
+import WebDev from '../../img/webdev.png'
+import Hardware from '../../img/pc.png'
 
 
 export default function Services() {
@@ -31,7 +34,7 @@ export default function Services() {
                         <div className="services__modal-content">
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title"> UX/UI Design</h3>
-                            <img src="src/img/uxui.png" alt="" className="services__img" />
+                            <img src={UXUI} alt="" className="services__img" />
                             <p className="services__modal-description">
                             These services include:
                             </p>
@@ -83,7 +86,7 @@ export default function Services() {
                         <div className="services__modal-content">
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title">Web & App Development</h3>
-                            <img src="src/img/programming.png" alt="" className="services__img" />
+                            <img src={WebDev} alt="" className="services__img" />
                             <p className="services__modal-description">
                             These services include:
                             </p>
@@ -135,7 +138,7 @@ export default function Services() {
                         <div className="services__modal-content">
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title"> PC Builds & Upgrades </h3>
-                            <img src="src/img/pc.png" alt="" className="services__img" />
+                            <img src={Hardware} alt="" className="services__img" />
                             <p className="services__modal-description">
                             These services include:
                             </p>
