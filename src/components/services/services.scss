@@ -94,7 +94,7 @@
         &-title{
             font-size: 1.25rem;
             font-weight: 500;
-            margin-bottom: 2rem;
+            //margin-bottom: 1rem;
         }
         &-description{
             font-family: "Inter", sans-serif;
@@ -123,6 +123,12 @@
             line-height: 1.4;
         }
     
+    }
+    &__img {
+        width: 300px;
+        height: auto;
+        margin: 0 3rem;
+        
     }
 }
 /* Active Modal */

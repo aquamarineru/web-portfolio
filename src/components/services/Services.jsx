@@ -2,9 +2,7 @@ import React, { useState } from 'react'
 import './services.scss'
 import { BsPencilSquare } from 'react-icons/bs'
 import { AiOutlineArrowRight, AiOutlineClose } from 'react-icons/ai'
-import { CiBookmarkCheck } from 'react-icons/ci'
 import { FaLaptopCode } from 'react-icons/fa'
-import { BiCheckCircle } from 'react-icons/bi'
 import { MdOutlineHardware } from 'react-icons/md'
 
 
@@ -33,8 +31,9 @@ export default function Services() {
                         <div className="services__modal-content">
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title"> UX/UI Design</h3>
+                            <img src="src/img/uxui.png" alt="" className="services__img" />
                             <p className="services__modal-description">
-                            I am able to provide a range of services aimed at creating user-friendly digital experiences for businesses and individuals. These services include:
+                            These services include:
                             </p>
     
                             <ul className="services__modal-services">
@@ -84,8 +83,9 @@ export default function Services() {
                         <div className="services__modal-content">
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title">Web & App Development</h3>
+                            <img src="src/img/programming.png" alt="" className="services__img" />
                             <p className="services__modal-description">
-                            I am able to provide a range of services aimed at building and maintaining web and mobile applications for businesses and individuals. These services include:
+                            These services include:
                             </p>
     
                             <ul className="services__modal-services">
@@ -135,8 +135,9 @@ export default function Services() {
                         <div className="services__modal-content">
                             <AiOutlineClose className="services__modal-close" onClick={() => handleModal(0)}/>
                             <h3 className="services__modal-title"> PC Builds & Upgrades </h3>
+                            <img src="src/img/pc.png" alt="" className="services__img" />
                             <p className="services__modal-description">
-                            Let us build you a one of custom PC using only the best components on the market today! We can also upgrade your current PC to make it faster and more powerful. These services include:
+                            These services include:
                             </p>
     
                             <ul className="services__modal-services">
