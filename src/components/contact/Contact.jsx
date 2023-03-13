@@ -19,7 +19,7 @@ export default function Contact() {
                 position: 'center',
                 icon: 'success',
                 title: 'Your message has been sent',
-                width: 320,
+                width: 300,
                 padding: '1em',
                 background: 'var(--text-color)',
                 backdrop: `

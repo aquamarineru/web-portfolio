@@ -36,38 +36,38 @@ export default function Services() {
                             <h3 className="services__modal-title"> UX/UI Design</h3>
                             <img src={UXUI} alt="" className="services__img" />
                             <p className="services__modal-description">
-                            These services include:
+                            My services include:
                             </p>
     
                             <ul className="services__modal-services">
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Accessibility:</h3>
-                                        <p>Ensuring that the product is accessible to users with disabilities and meets accessibility standards.</p>
+                                        <p className="services__modal-text">Ensuring that the product is accessible to users with disabilities and meets accessibility standards.</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                     <div className="services__modal-info">
                                         <h3 className="services__modal-sub">User interface design</h3>
-                                        <p>Designing interfaces that are intuitive, easy to navigate, and visually appealing.</p>
+                                        <p className="services__modal-text">Designing interfaces that are intuitive, easy to navigate, and visually appealing.</p>
                                         </div>
                                 </li>
                                 <li className="services__modal-service">
                                     <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Visual and Interaction design:</h3>
-                                        <p>Designing how users interact with the product, including animations, transitions, and feedback.</p>
+                                        <p className="services__modal-text">Designing how users interact with the product, including animations, transitions, and feedback.</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Information architecture:</h3>
-                                        <p>Organizing content and information in a way that is easy to understand and find</p>
+                                        <p className="services__modal-text">Organizing content and information in a way that is easy to understand and find</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Accessibility:</h3>
-                                        <p>Ensuring that the product is accessible to users with disabilities and meets accessibility standards.</p>
+                                        <p className="services__modal-text">Ensuring that the product is accessible to users with disabilities and meets accessibility standards.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -88,38 +88,38 @@ export default function Services() {
                             <h3 className="services__modal-title">Web & App Development</h3>
                             <img src={WebDev} alt="" className="services__img" />
                             <p className="services__modal-description">
-                            These services include:
+                            My services include:
                             </p>
     
                             <ul className="services__modal-services">
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Front-end development:</h3>
-                                        <p>Developing the user interface and user experience of the application using technologies such as React or Vue.</p>
+                                        <p className="services__modal-text">Developing the user interface and user experience of the application using technologies such as React or Vue.</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Back-end development:</h3>
-                                        <p>Creating the server-side logic, APIs, and database management systems using technologies such as Node.js,  Content Managment System (CMS)</p>
+                                        <p className="services__modal-text">Creating the server-side logic, APIs, and database management systems using technologies such as Node.js,  Content Managment System (CMS)</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Testing and debugging:</h3>
-                                        <p>Testing and debugging the application to ensure that it functions properly and is free of errors.</p>
+                                        <p className="services__modal-text">Testing and debugging the application to ensure that it functions properly and is free of errors.</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Maintenance and support: </h3>
-                                        <p>Providing ongoing maintenance and support to keep the application up-to-date and running smoothly.</p>
+                                        <p className="services__modal-text">Providing ongoing maintenance and support to keep the application up-to-date and running smoothly.</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Integration:</h3>
-                                        <p>Integrating the application with other third-party services such as payment gateways, social media platforms, and analytics tools.</p>
+                                        <p className="services__modal-text">Integrating the application with other third-party services such as payment gateways, social media platforms, and analytics tools.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -140,32 +140,32 @@ export default function Services() {
                             <h3 className="services__modal-title"> PC Builds & Upgrades </h3>
                             <img src={Hardware} alt="" className="services__img" />
                             <p className="services__modal-description">
-                            These services include:
+                            My services include:
                             </p>
     
                             <ul className="services__modal-services">
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Custom PC builds: </h3>
-                                        <p>Building custom desktop computers to meet the specific needs of the user, including selecting components such as processors, motherboards, graphics cards, and memory.</p>
+                                        <p className="services__modal-text">Building custom desktop computers to meet the specific needs of the user, including selecting components such as processors, motherboards, graphics cards, and memory.</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Upgrades:</h3>
-                                        <p>Upgrading the components of an existing desktop computer to improve performance and capabilities, including upgrading the CPU, GPU, RAM, or storage.</p>
+                                        <p className="services__modal-text">Upgrading the components of an existing desktop computer to improve performance and capabilities, including upgrading the CPU, GPU, RAM, or storage.</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Maintenance and support: </h3>
-                                        <p>Providing ongoing maintenance and support to keep the computer running smoothly and addressing any issues that arise.</p>
+                                        <p className="services__modal-text">Providing ongoing maintenance and support to keep the computer running smoothly and addressing any issues that arise.</p>
                                     </div>
                                 </li>
                                 <li className="services__modal-service">
                                 <div className="services__modal-info">
                                     <h3 className="services__modal-sub"> Installation and configuration: </h3>
-                                        <p>Installing and configuring software, hardware, and peripherals such as printers, scanners, and gaming accessories.</p>
+                                        <p className="services__modal-text">Installing and configuring software, hardware, and peripherals such as printers, scanners, and gaming accessories.</p>
                                     </div>
                                 </li>
                             </ul>

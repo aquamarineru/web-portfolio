@@ -167,6 +167,24 @@
         &__content {
             padding: 3.5rem 0.5rem 1.25rem 1.5rem;
         }
+        &__img {
+            width: 200px;
+            margin: 0 4.5rem;
+        }
+        &__modal{
+            &-content {
+                width: 400px;
+                padding: 2.5rem 1.5rem 1.5rem;
+            }
+            &-title,
+            &-sub{
+                font-size: 1rem;
+            }
+            &-description,
+            &-text{
+                font-size: .75rem;
+            }
+        }
     }
     
   }
@@ -180,11 +198,22 @@
             width: 300px;
             padding: 1rem 1rem;
         }
+        &__img {
+            width: 200px;
+            margin: 0 3.5rem;
+        }
         &__modal {
             &-content{
-                padding: 4.5rem 1.5rem 2.5rem;
+                width: 350px;
+
             }
-            &-description{
+            &-title,
+            &-sub{
+                font-size: .875rem;
+            }
+            &-description,
+            &-text{
+                font-size: .7rem;
                 padding: 0;
             }
         }
@@ -196,6 +225,22 @@
     .services{
         &__content {
             width: 250px;
+        }
+        &__img {
+            margin: 0 1rem;
+        }
+        &__modal {
+            &-content{
+                width: 300px;
+            }
+            &-title,
+            &-sub{
+                font-size: .75rem;
+            }
+            &-description,
+            &-text{
+                font-size: .6rem;
+            }
         }
     }
     
