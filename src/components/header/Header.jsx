@@ -3,6 +3,7 @@ import './header.scss'
 import {AiOutlineHome, AiOutlineUser, AiOutlineSend, AiOutlineFileDone, AiOutlinePicture, AiOutlineClose, AiOutlineAppstore} from 'react-icons/ai'
 import {MdOutlineHomeRepairService} from 'react-icons/md'
 import { BsSun, BsMoon } from 'react-icons/bs'
+import Logo from '../../img/logo.png'
 
 const getStorageTheme = () => {
     let theme = "light-theme"
@@ -40,7 +41,9 @@ export default function Header() {
     <div>
       <header className="header">
         <nav className="nav container">
-            <a href="/" className="nav__logo">Code Crafters</a>
+            <a href="/" className="nav__logo">
+                <img src={Logo} alt="" className='nav__logo-img'/>
+                Code Crafters</a>
             <div className="nav__items">
                 <div className={navOpen ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list">
